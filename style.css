@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --azul: #2C3E50;
+    --salmon: #ED6755;
+}
+
+body {
+    background: var(--negro);
+    font-family: sans-serif;
+}
+
+.container {
+    background: var(--negro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 100vh;
+}
+
+.popupuno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--blanco);
+    height: 399px;
+    width: 432px;
+    padding: 50px;
+    border-radius: 20px;
+    gap: 20px;
+    box-shadow: 0px 6px 2px 0px var(--blanco);
+}
+
+.popupdos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--blanco);
+    height: 399px;
+    width: 432px;
+    padding: 50px;
+    border-radius: 20px;
+    gap: 20px;
+    box-shadow: 0px 6px 2px 0px var(--blanco);
+}
+
+.popup img {
+    width:  140px;
+}
+
+.popup p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.botonuno {
+    font-size: 15px;
+    background: var(--salmon);
+    color: var(--blanco);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px 2px 0px var(--salmon);
+}
+
+.botondos {
+    font-size: 16px;
+    background: var(--azul);
+    color: var(--blanco);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px 2px 0px var(--azul)
+}
+
+input:hover {
+    cursor: pointer;
+}
